@@ -38,7 +38,7 @@ p {
     grid-template-rows: repeat(3, 45px);
     grid-gap: 5px;
     }
-.box {
+.box, .box2 {
     display: flex;
     background-color: lightgray;
     border: 2px solid black;
