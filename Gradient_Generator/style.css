@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 body {
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.6);
@@ -5,19 +8,45 @@ body {
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	background: linear-gradient(to right, yellow, blue ); /* Standard syntax */
+    background: linear-gradient(90deg, yellow, blue ); /* Standard syntax */
+    background-repeat: no-repeat;
 }
 
 h1 {
     font: 600 4em 'Raleway', sans-serif;
     letter-spacing: .7em;
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 1em;
 }
 
 h3 {
 	font: 900 1em 'Raleway', sans-serif;
     text-transform: none;
     letter-spacing: 0.01em;
-
+}
+p {
+    font-weight: bold;
+    margin-block-end: 0.5em;
+}
+.selection {
+    margin-bottom: 3em;
+}
+.container {
+    margin: 5px 15px;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 45px);
+    grid-template-rows: repeat(3, 45px);
+    grid-gap: 5px;
+    }
+.box {
+    display: flex;
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    border-radius: 30%;
+    font-weight: bolder;
 }

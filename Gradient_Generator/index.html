@@ -13,10 +13,27 @@
     </head>
     <body id="gradient">
         <h1>Gradient Generator</h1>
-        <input class="color1" type="color" name="color1" value="#ffee00">
-        <input class="color2" type="color" name="color2" value="#0000ff">
+        <div class="selection">
+            <p>Direction</p>
+            <div class="container">
+                <button class="box" type="button" value="315deg">&#x2196;</button>
+                <button class="box" type="button" value="0deg">&#x2191;</button>
+                <button class="box" type="button" value="45deg">&#x2197;</button>
+                <button class="box" type="button" value="270deg">&#x2190;</button>
+                <button class="box2" type="button" id="circle">&#x21ba;</button>
+                <button class="box" type="button" value="90deg">&#x2192;</button>
+                <button class="box" type="button" value="225deg">&#x2199;</button>
+                <button class="box" type="button" value="181deg">&#x2193;</button>
+                <button class="box" type="button" value="135deg">&#x2198;</button>
+            </div>
+            <p>Color</p>
+            <div class="colors">
+                <input class="color1" type="color" name="color1" value="#ffee00">
+                <input class="color2" type="color" name="color2" value="#0000ff">
+            </div>
+        </div>
         <h2>Current CSS</h2>
-        <h3>linear-gradient(to right, rgb(255, 238, 0), rgb(0, 0, 255));</h3>
+        <h3>linear-gradient(90deg, rgb(255, 238, 0), rgb(0, 0, 255));</h3>
 
         <script type="text/javascript" src="script.js" async defer></script>
     </body>
