@@ -1,5 +1,5 @@
-// ==============================================================
-// Avoid Requesting The Geolocation Permission On Page Load
+// ================================================================
+// First version:
 // window.addEventListener('load', () => {
 //     if (navigator.geolocation){
 //         navigator.geolocation.getCurrentPosition(position => {
@@ -9,7 +9,9 @@
 //         h1.textContent = 'Location access disabled';
 //     }
 // });
-// ==============================================================
+// ================================================================
+// UPDATE: Avoid Requesting The Geolocation Permission On Page Load
+// ================================================================
 document.querySelector('.location-info').onclick = function() {
 
     let location = document.querySelector('.location-info');
