@@ -1,5 +1,5 @@
 // ================================================================
-// First version:
+// First version: (geolocation request on page loading)
 // window.addEventListener('load', () => {
 //     if (navigator.geolocation){
 //         navigator.geolocation.getCurrentPosition(position => {
@@ -11,6 +11,8 @@
 // });
 // ================================================================
 // UPDATE: Avoid Requesting The Geolocation Permission On Page Load
+// ================================================================
+// Geolocation must be obtained only after user input!
 // ================================================================
 document.querySelector('.location-info').onclick = function() {
 
