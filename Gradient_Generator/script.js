@@ -38,6 +38,7 @@ function setRadial() {
 }
 
 //need to add logic for color input when on radial
+// for now works when selecting colors first and radial direction after
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 circle.addEventListener("click", setRadial);
